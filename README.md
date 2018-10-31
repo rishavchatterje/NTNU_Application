@@ -60,7 +60,7 @@ private String findcontractAddress(String address, long nonce){
     
 }
 ```
-###Dependencies
+### Dependencies
 We would need to have web3.js and rlp encoding as dependencies and these needs to be called in order to run the program.
 
 The answer to the question will be - It's easy to calculate the first part since we can fetch the value by using various operators within a testnet, that which contract has the highest ether balance. But for the second part, we would need to find the nonce value for each of the transactions made by the sender. This would let us know  about the details of that particular tx.
