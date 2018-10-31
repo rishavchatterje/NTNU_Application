@@ -41,7 +41,8 @@ The sender and nonce are RLP encoded and then hashed with Keccak-256.
 address = sha3(rlp_encode(creator_account, creator_account_nonce))[x:] 
 
 ```
-###Snippets
+### Snippets
+
 I have tried writing one code in Java. We have to convert the address to a byte[], then encode, then Hash with Keccak-256 and we are ready with the output.
 ```
 private String findcontractAddress(String address, long nonce){
