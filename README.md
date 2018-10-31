@@ -11,17 +11,17 @@ We would be discussing the solution to the Ethereum Task (My Perspective) :
 Geth has a function named web3.eth.getBalance() (to find the balance of the contract)
 (after the contract has been deployed)
 Syntax - 
-'''
-web3.eth.getBalance(address [, defaultBlock] [, callback]) 
-'''
-gives us the address of that particular block
 
+web3.eth.getBalance(address [, defaultBlock] [, callback]) 
+```
+gives us the address of that particular block
+```
 Hence, this gives us the balance assigned to that contract.
 
 Moreover, we could also call address.balance or this.balance
 
-'''
+```
 address(this).balance.
-'''
+```
 ##### Ether Balance can also be computed as follows -
 The sender is sending some value
